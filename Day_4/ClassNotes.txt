@@ -1,0 +1,18 @@
+Arrays:
+	Collection of same datatypes. Stored in multiple memory location continuously.
+
+Types of arrays:
+	1D
+	2D-720p,1080p,1520p
+	3D- n*n*n
+	4D-n*n*n*n
+	generally nD
+
+Memory allocation
+ Stack memory:
+	it will store the reference of your variable.
+ Heap memory:
+	where all your data is stored.
+
+Do java have memory address?
+  No, java don't have static memory allocation. it hold dynamic memory allocation. so, mostly we will be accessing via reference.
