@@ -1,0 +1,20 @@
+1. In Java, the range of short data type is:-32,768 to 32,767
+
+2. In Java, the range of int (Integer data type) is:-2,147,483,648 to 2,147,483,647
+
+3. Purpose of Comma in Java Print Statement:
+	In Java, comma ( , ) is not used in System.out.print() or println().
+	Using it will cause a compile-time error.
+	To print multiple values, use + operator:
+	System.out.println("Value: " + a);
+	Comma is used only in method parameters, variable declarations, and loops, not in print statements.
+
+4. Why Class Name and File Name Should Be Same in Java?
+	Java uses the class name to identify and load the file
+	If names don’t match, the compiler cannot find the correct class.
+
+5. Why main is void in Java?
+	In Java, the main method is declared as void because it does not return any value.
+	main() is the starting point of program execution
+	It is called by the JVM (Java Virtual Machine)
+	The JVM does not expect any return value from main.
