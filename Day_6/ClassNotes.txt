@@ -1,0 +1,18 @@
+OOPS:
+  Dealing with class and objects
+
+Class:
+  collection of methods and variables
+
+If you have multiple classes in a single file then there should be only one pubic class and that public class should be main class.
+remaining classes should start with just class.
+
+Parameterized constructor:
+  passing the value while calling the object is called parameterized constructor.
+
+Memory allocation:
+  dpConstructor dpc=new dpConstructor();
+  
+  dpConstructor - classloader - jvm
+  dpc - stack
+  new dpConstructor - heap
