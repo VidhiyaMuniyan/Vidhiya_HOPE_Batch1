@@ -1,0 +1,7 @@
+Encapsulation:
+  It is like a capsule.
+  We have 2 things inside our capsule - 1) Data Members/ Fields/ Data
+					2) Member Function/ Methods
+Types of Polymorphism:
+ Method Overloading - compile time
+ Method Overriding - run time
