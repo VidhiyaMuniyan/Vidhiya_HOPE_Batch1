@@ -1,0 +1,13 @@
+Abstraction:
+  Hiding the implementation.
+
+How an abstract class will look like?
+ 
+abstract class Animal{
+	abstract void sound();
+	void eat(){
+		sop("eating...");
+	}
+}
+
+Abstract class can hold both abstract method and concret methods.
