@@ -1,56 +1,29 @@
 package Day_7;
 
-import java.util.*;
+class Library {
+    int libraryId = 101;
+    String libraryName = "City Library";
 
-class Library{
-    int libraryId;
-    int bookId;
-    int memberId;
-    int issueId;
-    String libraryName;
-    String bookName;
-    void display(){
-        System.out.println("Welcome to the library management system");
-    }
-    void displayLibraryDetails(){
-        this.libraryId=101;
-        this.libraryName="City Library";
-        System.out.println("Library Id: "+libraryId);
-        System.out.println("Library Name: "+libraryName);
+    void displayLibraryDetails() {
+        System.out.println("Library Id: " + libraryId);
+        System.out.println("Library Name: " + libraryName);
     }
 }
-class Book extends Library{
-    void bookDetails(){
-        System.out.println("This is a book management system");
-    }
-    void displayBookDetails(){
-        super.displayLibraryDetails();
-        this.bookId=201;
-        this.bookName="Java Programming";
-        System.out.println("Book Id: "+bookId);
-        System.out.println("Book Name: "+bookName);
-    }
-}
-class Member extends Library{
-    void memberDetails(){
-        System.out.println("This is a member management system");
-    }
-    void displayMemberDetails(){
-        super.displayLibraryDetails();
-        this.memberId=301;
-        System.out.println("Member Id: "+memberId);
-    }
-}
-public class LibraryManagement_task {
-    public static void main(String[] args) {
-        Book b=new Book();
-        b.display();
-        b.bookDetails();
-        b.displayBookDetails();
-        Member m=new Member();
-        m.display();
-        m.memberDetails();
-        m.displayMemberDetails();
 
+class Book {
+    int bookId = 201;
+    String bookName = "Java Programming";
+
+    void displayBookDetails() {
+        System.out.println("Book Id: " + bookId);
+        System.out.println("Book Name: " + bookName);
+    }
+}
+
+class Member {
+    int memberId = 301;
+
+    void displayMemberDetails() {
+        System.out.println("Member Id: " + memberId);
     }
 }
